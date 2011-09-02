@@ -6,11 +6,9 @@ while opcao
   if opcao == 1
     puts "Escreva o nome do evento"
     evento = gets
-  end
-  if opcao == 2
+  elsif opcao == 2
     puts evento
-  end
-  if opcao == 0
+  elsif opcao == 0
     opcao = false
   end
 end  
