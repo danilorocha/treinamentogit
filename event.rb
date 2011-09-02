@@ -1,14 +1,21 @@
-opcao = true
+
+
 while opcao
+opcao = false
+
+puts "========================= DANILO É VIADO ======================================"
+
+  if opcao == 1
   opcao = gets
   opcao = opcao.to_i
-  
-  if opcao == 1
+
+
     puts "Escreva o nome do evento"
-    evento = gets
-  elsif opcao == 2
+    evento = puts
+  elsif opcao == 1
     puts evento
-  elsif opcao == 0
-    opcao = false
+  elsif opcao == 2
+    opcao = true
   end
-end  
+end
+
