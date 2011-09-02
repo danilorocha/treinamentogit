@@ -1,10 +1,11 @@
 
 
-while opcao
+
 opcao = false
 
 puts "========================= DANILO É VIADO ======================================"
-
+while opcao <=10
+  puts "BICHINHAS"
   if opcao == 1
   opcao = gets
   opcao = opcao.to_i
